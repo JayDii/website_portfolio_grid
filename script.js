@@ -6,7 +6,12 @@ const portfolioGrid = document.getElementById('portfolioGrid');
 // ==================================================
 const subdomainUrls = [
     "https://jaydii.de/pw-gen/",
-    "https://jaydii.de/oldagram"
+    "https://jaydii.de/oldagram",
+    "https://jaydii.de/mybgg/",
+    "https://jaydii.de/bday-gif-t/",
+    "https://jaydii.de/crazy-conversions/"
+
+
 ];
 // ==================================================
 
