@@ -1,0 +1,97 @@
+/* --- General Setup & Dark Theme --- */
+body {
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #1a1f2c; /* Dark blue background */
+    color: #e0e0e0; /* Light gray text for readability */
+    margin: 0;
+    padding: 40px 20px;
+    font-weight: 300;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* --- Header & Title --- */
+.site-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.site-header h1 {
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.site-header .subtitle {
+    font-size: 1.1rem;
+    color: #9ab;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* --- Portfolio Grid Layout --- */
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+    gap: 35px;
+}
+
+/* --- Portfolio Item Styling --- */
+.portfolio-item {
+    background-color: #2a3140; /* Slightly lighter card background */
+    border: 1px solid #3c4456;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out, border-color 0.3s ease-out;
+}
+
+.portfolio-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
+    border-color: #4f5b73;
+}
+
+.portfolio-item iframe {
+    width: 100%;
+    height: 250px;
+    border: none;
+    background-color: #ffffff; /* White background for loading preview */
+}
+
+.portfolio-item-caption {
+    padding: 20px;
+    font-size: 1rem;
+    background-color: #2a3140;
+    border-top: 1px solid #3c4456;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.portfolio-item-caption a {
+    color: #4ddbff; /* Professional accent color (cyan) */
+    text-decoration: none;
+    font-weight: 400;
+    transition: color 0.3s ease;
+}
+
+.portfolio-item-caption a:hover {
+    color: #ffffff;
+}
+
+/* --- Footer --- */
+footer {
+    text-align: center;
+    margin-top: 80px;
+    padding-top: 20px;
+    color: #789;
+    font-size: 0.9rem;
+}
